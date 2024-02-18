@@ -70,9 +70,9 @@ body{
    background-image: linear-gradient(90deg,var(--Tomato-pink), var(--Tomato));
 }
 .my-wrapper{
-    height: 60vh;
+    height: 50%;
     background-color: var(--white);
-    width: 28%;
+    width: 30%;
     margin: auto;
    display: flex;
    flex-direction: column;
@@ -138,6 +138,9 @@ h1{
         padding: 0 1rem;
         width: 90%;
         margin-top: 2rem;
+    }
+    .my-wrapper{
+        width: 50%;
     }
 }
 /* large screen */
